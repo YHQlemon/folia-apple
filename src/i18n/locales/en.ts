@@ -2849,6 +2849,17 @@ export default {
         "description": "A new Lumiere setting hides lyric trail lines while keeping the text's flight paths."
       }
     },
+    "v0_7_20": {
+      "intro": "0.7.20 brings Apple Music into Folia as a platform you can browse, play, and read lyrics from.",
+      "appleMusic": {
+        "title": "Apple Music Integration",
+        "description": "Folia can now browse Apple Music as an online platform: search the catalog, open albums and artists, play music, and read lyrics. In Settings, under Integrations, you can paste your own MusicKit credentials (a developer token and a Music-User-Token) and pick a storefront. Lyrics, the official catalog API, and your own library need those credentials, while search, albums, artists, and previews work with no setup at all."
+      },
+      "appleMusicPreviewLimit": {
+        "title": "Playback Here Is a 30-Second Preview",
+        "description": "Apple only exposes 30-second previews to third-party clients, because complete tracks are FairPlay DRM protected and cannot be streamed outside Apple Music. Playback in Folia is therefore a preview, and Folia deliberately does not store those preview bytes as if they were the full song. Also note that the mainland China storefront returns no catalog entries through this interface, so pick another storefront or configure credentials."
+      }
+    },
     "v0_7_12": {
       "intro": "0.7.12 adds fade on pause and resume, bilingual sub-captions, close-to-tray, one-tap queueing of an artist's top songs, easier AI provider setup, and a smarter startup view.",
       "playbackFade": {

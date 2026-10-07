@@ -2736,6 +2736,17 @@ export default {
         "description": "Pengaturan Lumiere baru menyembunyikan garis jejak lirik sambil mempertahankan jalur terbang teks."
       }
     },
+    "v0_7_20": {
+      "intro": "0.7.20 menghadirkan Apple Music di Folia, lengkap dengan penjelajahan, pemutaran, dan lirik.",
+      "appleMusic": {
+        "title": "Integrasi Apple Music",
+        "description": "Folia kini dapat menjelajahi Apple Music sebagai platform online: cari di katalog, buka album dan halaman artis, putar musik, serta baca lirik. Di Pengaturan, pada bagian Integrasi, Anda bisa menempelkan kredensial MusicKit milik sendiri (developer token dan Music-User-Token) lalu memilih storefront. Lirik, API katalog resmi, dan pustaka pribadi Anda memerlukan kredensial tersebut, sedangkan pencarian, album, artis, dan pratinjau berfungsi tanpa penyiapan apa pun."
+      },
+      "appleMusicPreviewLimit": {
+        "title": "Pemutaran di Sini Hanya Pratinjau 30 Detik",
+        "description": "Apple hanya menyediakan pratinjau 30 detik untuk klien pihak ketiga, karena trek utuh dilindungi FairPlay DRM dan tidak dapat dialirkan di luar Apple Music. Jadi pemutaran di sini bersifat pratinjau, dan Folia sengaja tidak menyimpan byte pratinjau tersebut seolah-olah itu lagu lengkapnya. Perlu diketahui juga bahwa storefront Tiongkok daratan tidak mengembalikan entri katalog melalui antarmuka ini, jadi pilih storefront lain atau konfigurasikan kredensial."
+      }
+    },
     "v0_7_12": {
       "intro": "0.7.12 menghadirkan fade saat jeda dan lanjut, subtitle dwibaris, tutup ke tray, antrean lagu populer artis sekali ketuk, pengaturan penyedia AI yang lebih mudah, dan tampilan awal yang lebih cerdas.",
       "playbackFade": {
